@@ -1,0 +1,9 @@
+# min, hour, day of week(0~6 from Sunday), day of month(1~31), module, method, arg1, arg2, arg_name=value, ...
+
+# time format
+# *           match all
+# x/y         if ${time_value} mod y == x
+# x1,x2,...   if ${time_value} == x1 or ${time_value} == x2 or ...
+
+# example
+* * * *           get_login_user do_job limit=2000
